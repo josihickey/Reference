@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Astloch-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!--Meow Script-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+    
+    <!---Jaquard 12-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lavishly+Yours&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"/>
+    
+    <!--Lavishly Yours-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+   
+    <!--Barrio-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+    
+    <!--Rye-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+    <!-- The website stylesheet -->
+   <!-- <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <!--<script src="/script.js" defer></script> -->
+    <style>
+      #Astloch{ font-family: "Astloch", system-ui; font-size:25px}
+      #Meow-Script{font-family:"Meow Script", sans; font-size:25px}
+      #Brush-Script-MT{font-family:"Brush Script MT"; font-size: 25px}
+      #French-Script-MT{font-family:"French Script MT"; font-size:25px;}
+      #Jacquard-12{font-family:"Jacquard 12"; font-size 25px;}
+      body{background-color:pink; font-family:monospace;}
+      table, th, td{border: 1px solid;}
+      th, td{background-color:rgb(254, 238, 240);}
+      #title{text-align:center;background-color:rgb(254, 238, 240);}
+      .note{font-size:10px}
+      #Lavishly-Yours{font-family:"Lavishly Yours", cursive; font-size:25px;}
+      #Barrio{font-family:"Barrio", monospace; font-size:25px;}
+      #Rye{font-family:"Rye", monospace; font-size:25px;}
+      
+    
+    </style>
+  </head>
+  <body>
+   <h1 id="title">HTML and CSS Reference Sheet</h1>
+    
+  <h2 id="toc">Table of Contents</h2>
+    <ul>
+      <li><a href="#fonts">Fonts</a></li>
+        <ul>
+          <li><a href="#font-basics">Basics</a></li>
+          <li><a href="#fancy-fonts">Fancy Fonts Collection</a></li>
+          <li><a href="#font-size">Font Size</a></li>
+        </ul>
+      <li><a href="#tables">Tables</a></li>
+        <ul>
+          <li><a href="#table-style">Table Styles</a></li>
+        </ul>
+      <li><a href="#lines">Lines</a></li>
+    </ul>
+    
+  <h2 id="fonts">
+    Fonts
+    </h2>
+    
+    <h3 id="font-basics">Basics</h3>
+    <h4>Main Font Families:</h4>
+    <p>
+    <ol>
+      <li style="font-family:serif">Serif</li>
+      <li style="font-family:sans-serif">Sans-serif</li>
+      <li style="font-family:monospace">Monospace</li>
+      <li style="font-family:cursive">Cursive</li>
+      <li style="font-family:fantasy">Fantasy</li>
+    </ol>
+    2 Methods of Changing Fonts
+    <ol>
+      <li>In Style (CSS)</li>
+      <img src="https://cdn.glitch.global/ca3bbd6e-b2e2-411f-bf60-4d16537c83a3/Screenshot%202024-11-12%20231141.png?v=1731471124559" width="450">
+      <li>In The Tag (HTML)</li>
+      <img src="https://cdn.glitch.global/ca3bbd6e-b2e2-411f-bf60-4d16537c83a3/Fontsintag.png?v=1731471251667" width="450">
+        <ul>
+          <li>This can also be done in the form of a span tag (< span > effected text goes here < /span >)</li>
+      </ul>
+    </ol>
+  </p>
+  <h3 id="fancy-fonts">Fancy Fonts Collection</h3>
+    <p class="note">
+      Note:It's helpful to include a backup font in the style rule for imported (non basic) fonts, just in case other computers don't have access to them!
+    </p>
+    <p>
+      All text in a different font set to 25px for reference
+    </p>
+    <br>
+  <p>
+    <span id="Astloch">Astloch- The quick brown fox jumps over the lazy dog</span>
+    <br> Font Code:
+    <br>
+    <br>
+      < link rel="preconnect" href="https://fonts.googleapis.com" >
+      <br> < link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+      <br> < link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&display=swap" rel="stylesheet" >
+    <br>
+    <br> From google fonts
+  </p>
+    
+  <p>
+    <span id="Meow-Script">Meow Script- The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com" >
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <br>< link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet" >
+    <br>
+    <br> From google fonts
+  </p>
+    
+  <p>
+    <span id="French-Script-MT"> French Script MT- The quick brown fox jumps over the lazy dog</span>
+    <br>No Font Code Necessary.
+  </p>
+    
+  <p>
+   <span id="Brush-Script-MT">Brush Script MT- The quick brown fox jumps over the lazy dog</span> 
+    <br>No Font Code Necessary.
+  </p>
+    
+  <p>
+    <span id="Jacquard-12">Jacquard 12-The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com" / >
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin / >
+    <br>< link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lavishly+Yours&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"/ >
+    <br>
+    <br>From google fonts
+  </p>
+    
+  <p>
+    <span id="Lavishly-Yours">Lavishly Yours-The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com" >
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <br>< link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet" >
+    <br>
+    <br>From google fonts
+  </p>
+  <p>
+    <span id="Barrio">Barrio-The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com">
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <br>< link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+    <br>From google fonts
+  </p> 
+    
+    <p>
+    <span id="Rye">Rye-The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com" >
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <br>< link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet" >
+
+    <br>From google fonts
+  </p> 
+    
+    
+  <h3 id="font-size">Font Size</h3>
+  <a href="#toc">Back to Table of Contents</a>
+    
+  <h2 id="tables">Tables</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Command</th>
+          <th>Function</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>table</td>
+          <td>Creates a table (the basic command)</td>
+        </tr>
+        <tr>
+          <td>thead</td>
+          <td>Groups the heading cells</td>
+        </tr>
+        <tr>
+          <td>tbody</td>
+          <td>Groups the body cells</td>
+        </tr>
+        <tr>
+          <td>tr</td>
+          <td>Creates a row</td>
+        </tr>
+        <tr>
+          <td>th</td>
+          <td>Adds a column in a row in the heading. Makes it bold (and centered?) Goes inbetween "< tr >" and "< /tr >" </td>
+        </tr>
+            <td>td</td>
+            <td>Same as th, but in the body.</td>
+      </tbody>
+    </table>
+    <br>
+    <h3 id="table-style">Style</h3>
+    <a href="#toc">Back to Table of Contents</a>
+    
+    <h2 id="lines">Lines</h2>
+    
+    <a href="#toc">Back to Table of Contents</a>
+  </body>
+</html>
