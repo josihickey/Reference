@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--Astloch-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!--Meow Script-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+    
+    <!---Jaquard 12-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lavishly+Yours&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"/>
+    
+    <!--Lavishly Yours-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+   
+    <!--Barrio-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+    
+    <!--Rye-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+    <style>
+      #Astloch{ font-family: "Astloch", system-ui; font-size:25px}
+      #Meow-Script{font-family:"Meow Script", sans; font-size:25px}
+      #Brush-Script-MT{font-family:"Brush Script MT"; font-size: 25px}
+      #French-Script-MT{font-family:"French Script MT"; font-size:25px;}
+      #Jacquard-12{font-family:"Jacquard 12"; font-size 25px;}
+      body{background-color:pink; font-family:monospace;}
+      
+/*  Dropdown Bar */
+     /*     <!--  Dropdown Bar  --> */
+      
+      .dropdown{
+        overflow:hidden;
+        float:left;
+      }
+      
+      .navbar a{ 
+        float:left;
+        font-size:16px;
+        color:pink;
+        text-align:center;
+        padding: 10px 16px;
+        margin-top:4px;
+        text-decoration:none;
+      }
+      
+      .navbar{
+        overflow:hidden;
+        background-color:#333;
+        font-family:Monospace;
+      }
+      
+      .dropdown .dropdownbutton{
+        font-size:16px;
+        border:none;
+        outline:none;
+        padding: 14px 16px;
+        color:pink;
+        background-color:inherit;
+        font-family:inherit;
+        margin:0;
+      }
+      
+      .navbar a:hover, .dropdown:hover, .dropdownbutton{
+        background-color: #b30086;
+      }
+      
+      .dropdown-content{
+        display:none;
+        position:absolute;
+        background-color: #b30086;
+        min-width:100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index:1;
+      }
+      
+      .dropdown-content a{
+        float:none;
+        color:pink;
+        padding: 12px 16px;
+        text-decoration:none;
+        display:block;
+        text-align:left;
+      }
+      
+      .dropdown-content a:hover{
+        background-color:black;
+      }
+      
+      .dropdown:hover .dropdown-content{
+        display:block;
+      }
+    </style>
+  </head>
+  <body>
+    
+      <div class="navbar">
+    <div class="dropdown">
+      <button class="dropdownbutton">Style</button>
+      <div class="dropdown-content">
+        <a href="fonts.html">Fonts</a>
+        <a href="tables.html">Tables</a>
+      </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropdownbutton">Elements</button>
+      <div class="dropdown-content">
+        <a href="tables.html">Tables</a>
+        <a href="lines.html">Lines</a>
+        <a href="flip.html">Flip Cards</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropdownbutton">Javascript</button>
+      <div class="dropdown-content">
+        <a href="javashapes.html">Shapes</a>
+        <a href="jvariables.html">Variables</a>
+      </div>
+    </div>
+    <a href="index.html">Home</a>
+    <a href="trialpage.html">Trial</a>
+    </div>
+    
+    <h2 id="fonts">
+    Fonts
+    </h2>
+    
+    
+<!--   Table of Contents   -->
+     <h2 id="toc">Table of Contents</h2>
+    <ul>
+      <li><a href="#font-basics">Basics</a></li>
+      <li><a href="#fancy-fonts">Fancy Fonts Collection</a></li>
+    </ul>
+<!--End of Table Of Contents      -->
+    
+    
+    <h3 id="font-basics">Basics</h3>
+    <h4>Main Font Families:</h4>
+    <p>
+    <ol>
+      <li style="font-family:serif">Serif</li>
+      <li style="font-family:sans-serif">Sans-serif</li>
+      <li style="font-family:monospace">Monospace</li>
+      <li style="font-family:cursive">Cursive</li>
+      <li style="font-family:fantasy">Fantasy</li>
+    </ol>
+    2 Methods of Changing Fonts
+    <ol>
+      <li>In Style (CSS)</li>
+      <img src="https://cdn.glitch.global/ca3bbd6e-b2e2-411f-bf60-4d16537c83a3/Screenshot%202024-11-12%20231141.png?v=1731471124559" width="450">
+      <li>In The Tag (HTML)</li>
+      <img src="https://cdn.glitch.global/ca3bbd6e-b2e2-411f-bf60-4d16537c83a3/Fontsintag.png?v=1731471251667" width="450">
+        <ul>
+          <li>This can also be done in the form of a span tag (< span > effected text goes here < /span >)</li>
+      </ul>
+    </ol>
+  </p>
+  
+  <br>
+  <br>
+  <br>
+    
+<!-- Fancy Fonts Collection   -->
+  <h3 id="fancy-fonts">Fancy Fonts Collection</h3>
+    <p class="note">
+      Note:It's helpful to include a backup font in the style rule for imported (non basic) fonts, just in case other computers don't have access to them!
+    </p>
+    <p>
+      All text in a different font set to 25px for reference
+    </p>
+    <br>
+  <p>
+    <span id="Astloch">Astloch- The quick brown fox jumps over the lazy dog</span>
+    <br> Font Code:
+    <br>
+    <br>
+      < link rel="preconnect" href="https://fonts.googleapis.com" >
+      <br> < link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+      <br> < link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&display=swap" rel="stylesheet" >
+    <br>
+    <br> From google fonts
+  </p>
+    
+  <p>
+    <span id="Meow-Script">Meow Script- The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com" >
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <br>< link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet" >
+    <br>
+    <br> From google fonts
+  </p>
+    
+  <p>
+    <span id="French-Script-MT"> French Script MT- The quick brown fox jumps over the lazy dog</span>
+    <br>No Font Code Necessary.
+  </p>
+    
+  <p>
+   <span id="Brush-Script-MT">Brush Script MT- The quick brown fox jumps over the lazy dog</span> 
+    <br>No Font Code Necessary.
+  </p>
+    
+  <p>
+    <span id="Jacquard-12">Jacquard 12-The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com" / >
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin / >
+    <br>< link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lavishly+Yours&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"/ >
+    <br>
+    <br>From google fonts
+  </p>
+    
+  <p>
+    <span id="Lavishly-Yours">Lavishly Yours-The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com" >
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <br>< link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet" >
+    <br>
+    <br>From google fonts
+  </p>
+  <p>
+    <span id="Barrio">Barrio-The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com">
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <br>< link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+    <br>From google fonts
+  </p> 
+    
+    <p>
+    <span id="Rye">Rye-The quick brown fox jumps over the lazy dog</span>
+    <br>Font Code:
+    <br>
+    <br>< link rel="preconnect" href="https://fonts.googleapis.com" >
+    <br>< link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <br>< link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet" >
+
+    <br>From google fonts
+  </p> 
+<!-- End of Fancy Fonts Collection   -->
+    
+  <h3 id="font-size">Font Size</h3>
+  <a href="index.html">Back to Table of Contents</a>
+  </body>
+</html>

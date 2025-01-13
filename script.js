@@ -32,4 +32,3 @@ Make the "Click me!" button move when the visitor clicks it:
 //filer.forEach((f) => {
   //f.onclick = () => { goto(f.dataset.file, f.dataset.line); };
 //});
-
