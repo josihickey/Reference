@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css">
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
+    
     
     <!--Astloch-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,11 +48,7 @@
     <!-- The website JavaScript file -->
     <!--<script src="/script.js" defer></script> -->
     <style>
-      #Astloch{ font-family: "Astloch", system-ui; font-size:25px}
-      #Meow-Script{font-family:"Meow Script", sans; font-size:25px}
-      #Brush-Script-MT{font-family:"Brush Script MT"; font-size: 25px}
-      #French-Script-MT{font-family:"French Script MT"; font-size:25px;}
-      #Jacquard-12{font-family:"Jacquard 12"; font-size 25px;}
+    
       body{background-color:pink; font-family:monospace;}
       table, th, td{border: 1px solid;}
       th, td{background-color:rgb(254, 238, 240);}
@@ -62,74 +58,9 @@
       #Barrio{font-family:"Barrio", monospace; font-size:25px;}
       #Rye{font-family:"Rye", monospace; font-size:25px;}
       
-/*     <!--  Dropdown Bar  --> */
-      
-      .dropdown{
-        overflow:hidden;
-        float:left;
-      }
-      
-      .navbar a{ 
-        float:left;
-        font-size:16px;
-        color:pink;
-        text-align:center;
-        padding: 10px 16px;
-        margin-top:4px;
-        text-decoration:none;
-      }
-      
-      .navbar{
-        overflow:hidden;
-        background-color:#333;
-        font-family:Monospace;
-      }
-      
-      .dropdown .dropdownbutton{
-        font-size:16px;
-        border:none;
-        outline:none;
-        padding: 14px 16px;
-        color:pink;
-        background-color:inherit;
-        font-family:inherit;
-        margin:0;
-      }
-      
-      .navbar a:hover, .dropdown:hover, .dropdownbutton{
-        background-color: #b30086;
-      }
-      
-      .dropdown-content{
-        display:none;
-        position:absolute;
-        background-color: #b30086;
-        min-width:100px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index:1;
-      }
-      
-      .dropdown-content a{
-        float:none;
-        color:pink;
-        padding: 12px 16px;
-        text-decoration:none;
-        display:block;
-        text-align:left;
-      }
-      
-      .dropdown-content a:hover{
-        background-color:black;
-      }
-      
-      .dropdown:hover .dropdown-content{
-        display:block;
-      }
-      
-      
-      
-    </style>
+
     
+    </style>
   </head>
   <body>
   
@@ -163,8 +94,56 @@
     
   <h1 id="title">HTML and CSS Reference Sheet</h1>
     
-   
+  <h2 id="toc">Table of Contents</h2>
+    <ul>
+      <li><a href="#tables">Tables</a></li>
+        <ul>
+          <li><a href="#table-style">Table Styles</a></li>
+        </ul>
+      <li><a href="#lines">Lines</a></li>
+    </ul>
     
-
+ 
+    
+  <h2 id="tables">Tables</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Command</th>
+          <th>Function</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>table</td>
+          <td>Creates a table (the basic command)</td>
+        </tr>
+        <tr>
+          <td>thead</td>
+          <td>Groups the heading cells</td>
+        </tr>
+        <tr>
+          <td>tbody</td>
+          <td>Groups the body cells</td>
+        </tr>
+        <tr>
+          <td>tr</td>
+          <td>Creates a row</td>
+        </tr>
+        <tr>
+          <td>th</td>
+          <td>Adds a column in a row in the heading. Makes it bold (and centered?) Goes inbetween "< tr >" and "< /tr >" </td>
+        </tr>
+            <td>td</td>
+            <td>Same as th, but in the body.</td>
+      </tbody>
+    </table>
+    <br>
+    <h3 id="table-style">Style</h3>
+    <a href="#toc">Back to Table of Contents</a>
+    
+    <h2 id="lines">Lines</h2>
+    
+    <a href="#toc">Back to Table of Contents</a>
   </body>
 </html>

@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css">
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
+    
     
     <!--Astloch-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,11 +48,7 @@
     <!-- The website JavaScript file -->
     <!--<script src="/script.js" defer></script> -->
     <style>
-      #Astloch{ font-family: "Astloch", system-ui; font-size:25px}
-      #Meow-Script{font-family:"Meow Script", sans; font-size:25px}
-      #Brush-Script-MT{font-family:"Brush Script MT"; font-size: 25px}
-      #French-Script-MT{font-family:"French Script MT"; font-size:25px;}
-      #Jacquard-12{font-family:"Jacquard 12"; font-size 25px;}
+    
       body{background-color:pink; font-family:monospace;}
       table, th, td{border: 1px solid;}
       th, td{background-color:rgb(254, 238, 240);}
@@ -62,74 +58,34 @@
       #Barrio{font-family:"Barrio", monospace; font-size:25px;}
       #Rye{font-family:"Rye", monospace; font-size:25px;}
       
-/*     <!--  Dropdown Bar  --> */
+    /* Line styling */
       
-      .dropdown{
-        overflow:hidden;
-        float:left;
+      .mine{
+        background-color:purple; 
+        border-height:0px;
+        height: 4px;
       }
-      
-      .navbar a{ 
-        float:left;
-        font-size:16px;
-        color:pink;
-        text-align:center;
-        padding: 10px 16px;
-        margin-top:4px;
-        text-decoration:none;
-      }
-      
-      .navbar{
-        overflow:hidden;
-        background-color:#333;
-        font-family:Monospace;
-      }
-      
-      .dropdown .dropdownbutton{
-        font-size:16px;
-        border:none;
-        outline:none;
-        padding: 14px 16px;
-        color:pink;
-        background-color:inherit;
-        font-family:inherit;
-        margin:0;
-      }
-      
-      .navbar a:hover, .dropdown:hover, .dropdownbutton{
-        background-color: #b30086;
-      }
-      
-      .dropdown-content{
-        display:none;
-        position:absolute;
-        background-color: #b30086;
-        min-width:100px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index:1;
-      }
-      
-      .dropdown-content a{
-        float:none;
-        color:pink;
-        padding: 12px 16px;
-        text-decoration:none;
-        display:block;
-        text-align:left;
-      }
-      
-      .dropdown-content a:hover{
-        background-color:black;
-      }
-      
-      .dropdown:hover .dropdown-content{
-        display:block;
-      }
-      
-      
-      
-    </style>
     
+      
+      #weirdline{
+        border-width:4pc;
+        background-color:black 
+          color:black;
+        height: 4px;
+      }
+      
+      #stackoverflowline{
+        display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+border-color:red;
+      }
+    
+    </style>
   </head>
   <body>
   
@@ -163,8 +119,58 @@
     
   <h1 id="title">HTML and CSS Reference Sheet</h1>
     
-   
+  <h2 id="lines">Lines</h2>
     
+  <h2 id="toc">Table of Contents</h2>
+    <ul>
+      <li><a href="#tables">Basic Code</a></li>
+      <li><a href="#lines">Style</a></li>
+    </ul>
 
+<h2>Basic Code</h2>    
+    <p>
+      To create a line, use the < hr > tag. There is no end tag for lines. 
+    This will create a horizontal line. This line will be largely transparent, with the exception of a border. Here is a basic line:
+    <hr id="basic">
+    </p>
+  <br>
+  <br>
+  <br>
+  
+  <h2>Style</h2>
+  <p>
+    There are many ways to style a line, but they never seem to 
+    consistently work. I included a few tags that have at some point 
+    worked for me. Good Luck!
+  </p>
+  <img src="https://cdn.glitch.global/ca3bbd6e-b2e2-411f-bf60-4d16537c83a3/LineStyleMine.png?v=1732422221322">
+  <p>
+    This image created the purple line, and the odd line that I don't 
+    totally know what to do with next to it. I've found the "background-color"
+    function to be the most helpful with changing the line's thickness. 
+    The height alters the height (obviously) or thickness of the line. Border width 
+    alters the border, or non-transparent aspect of the original line. For some reason, 
+    using "pc" made it very thick. I haven't figured out why yet. Either way, the second line (#weirdline)
+    shows the use of "border-width". Using "color" however, as I did in the second code, does absolutely nothing. 
+  </p>
+<!-- Weird Lines Code     -->
+   <hr class="mine">
+  <hr id="weirdline">
+    
+  <br>
+  <br>
+  <br>
+  <a href="https://stackoverflow.com/questions/27015460/how-display-a-colored-line-in-html">
+    <img src="https://cdn.glitch.global/ca3bbd6e-b2e2-411f-bf60-4d16537c83a3/StackOverflowLineStyle.png?v=1732423086057" width="550" alt="clickable image on line styling">
+  </a>
+  <p>
+    This is an example of line styling from Stackoverflow 
+    (the image is a link--click it for more details). This uses formatting tags 
+    like margin, as well as border functions. Their line would look like this:
+  </p>
+    
+  <hr id="stackoverflowline">
+    
+    <a href="#toc">Back to Table of Contents</a>
   </body>
 </html>
